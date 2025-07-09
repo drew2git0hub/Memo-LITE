@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>메모장</title>
+  <title>Memo - V tools</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -46,11 +46,11 @@
 <body>
   <!-- 선택화면 -->
   <div id="selectionScreen" class="screen">
-    <h2>메모 선택</h2>
+    <h2>Choose memo</h2>
     <!-- 새 메모 생성 (+ 모양) 버튼 -->
     <button id="newMemoButton">+</button>
     <!-- 선택된 메모 삭제 버튼 -->
-    <button id="deleteMemoButton">삭제</button>
+    <button id="deleteMemoButton">Delete</button>
     <ul id="memoList"></ul>
   </div>
 
@@ -58,13 +58,13 @@
   <div id="editScreen" class="screen">
     <!-- 선택화면으로 돌아가기 (< 모양) 버튼 -->
     <button id="backButton">&lt;</button>
-    <h2>메모 편집</h2>
+    <h2>Edit memo</h2>
     <textarea id="memoInput" placeholder="메모를 입력하세요"></textarea>
     <br />
-    <label for="colorPicker">색상 선택:</label>
+    <label for="colorPicker">Choosing color:</label>
     <input type="color" id="colorPicker" value="#ffffff" />
     <br />
-    <button id="saveMemoButton">저장</button>
+    <button id="saveMemoButton">Save</button>
   </div>
 
   <script>
