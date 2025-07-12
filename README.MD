@@ -1,4 +1,4 @@
  # Memo
 
-Make your own memo for this applictaion!
+Make your own memo to this applictaion!
 I'll cheer you!
