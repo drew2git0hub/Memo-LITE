@@ -1,4 +1,3 @@
- # Memo
+ # Memo LITE
 
-Make your own memo to this applictaion!
-I'll cheer you!
+Simple memo
